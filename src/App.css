@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #333;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+#quote-box{
+  max-width: 450px;
+  justify-content: center;
+  height: auto;
+  border-radius: 5px;
+  padding: 40px 30px;
+  background-color: aliceblue;
+  
+}
+
+#text{
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#author{
+  max-width: 450px;
+  color: #333;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+
+button{
+  background-color: #333;
+  margin-top: 40px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  color: white;
+  height: 38px;
+  border-radius: 3px;
+  padding: 8px 18px 6px 18px;
+  
+}
+
+#new-quote{
+  float: right;
+  font-weight:lighter;
+
+}
+#facebook{
+  margin: 20px;
+}
+button:hover{
+  opacity: 75%;
+  transition: ease-in 0.5ms;
+}
